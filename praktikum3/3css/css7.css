@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+    margin: 10px auto;
+    width: 750px;
+    text-align: center;
+}
+header{
+    height: 120px;
+    background-color: aqua;
+}
+.topnav{
+    overflow: hidden;
+    background-color: green;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: aqua;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: aqua;
+    color: green;
+}
+.column{
+    height: 450px;
+    float: left;
+    padding: 0%;
+}
+.column.side{
+    background-color: aqua;
+    width: 25%;
+}
+.column.middle{
+    background-color: yellowgreen;
+    width: 50%;
+}
+.column p{
+    padding: 0 5px;
+    text-align: left;
+    text-indent: 32px;
+}
+footer{
+    clear: both;
+    height: 20px;
+    background-color: green;
+}
