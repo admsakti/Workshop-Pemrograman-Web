@@ -8,7 +8,7 @@ $dbname = "form";
 $conn = new mysqli($servername, $username, $password) or die("Koneksi Gagal");
 
 // SQL to Create Database
-$sql = "CREATE DATABASE '$dbname'";
+$sql = "CREATE DATABASE $dbname";
 if ($conn->query($sql) === true) {
     echo "Database Berhasil Dibuat.<br>";
 } else {

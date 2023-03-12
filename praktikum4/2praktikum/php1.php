@@ -15,7 +15,7 @@ $conn = conn_server();
 
 $sql = "CREATE DATABASE $dbname";
 if ($conn->query($sql) === true) {
-    echo "Database berhasil dibuat";
+    echo "Database berhasil dibuat.<br>";
 } else {
     echo "Database gagal dibuat";
 }
@@ -32,7 +32,7 @@ $sql = "CREATE TABLE mhs (
     reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )";
 if ($conn->query($sql) === true) {
-    echo "Table berhasil dibuat";
+    echo "Table berhasil dibuat.<br>";
 } else {
     echo "Table gagal dibuat";
 }
