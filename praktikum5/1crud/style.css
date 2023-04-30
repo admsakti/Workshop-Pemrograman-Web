@@ -1,0 +1,30 @@
+* {
+  color: black;
+}
+
+body {
+  text-align: center;
+  background-color: #efefef;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+  padding: 30px 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  text-align: left;
+}
+
+table {
+  margin: auto;
+  text-align: right;
+}
+
+.button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: blue;
+}
